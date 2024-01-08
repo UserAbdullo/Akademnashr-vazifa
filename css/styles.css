@@ -1,3 +1,7 @@
+.site-body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .site-header {
   background: #ffffff;
 }
@@ -43,6 +47,7 @@
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .hero-text {
@@ -60,6 +65,7 @@
   font-size: 72px;
   line-height: 1.2;
   letter-spacing: 0.5;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .feature {
@@ -76,7 +82,8 @@
 .features-title {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .feature-info {
@@ -96,7 +103,9 @@
 
 .promo-heading {
   font-size: 40px;
-  line-height: 48px
+  line-height: 48px;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .promo-text {
