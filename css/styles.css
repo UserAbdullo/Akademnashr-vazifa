@@ -2,14 +2,23 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Roboto', "Arial" sans-serif;
+  font-family: 'Roboto', "Arial", sans-serif;
   letter-spacing: 0.5px;
-
+}
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #ffffff;
 }
 
+.site-header-actions {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -32,6 +41,9 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #ffffff;
 }
@@ -50,17 +62,8 @@ body {
   font-size: 40px;
   line-height: 1.2;
   font-family: 'Roboto Condensed', sans-serif;
-}                                                                                                                                                                                                                           
-  letter-spacing: 0.5px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.hero-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5;
-}
-
+}  
+                                                                                                                                            
 .hero-img {
   width: 510px;
 }
@@ -70,6 +73,13 @@ body {
   font-size: 72px;
   line-height: 1.2;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
 }
 
 .feature {
@@ -98,12 +108,14 @@ body {
 }
 
 .promo {
+  display: flex;
+  justify-content: space-between;
   background: #252420;
   color: #ffffff;
 }
 
 .promo-content {
-  widows: 440px;
+  width: 440px;
 }
 
 .promo-heading {
@@ -131,13 +143,28 @@ body {
   background-color: #f8f8f8;
 }
 
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-footer ul {
   list-style: none;
+}
+
+.site-footer-socials {
+  display: flex;
+  align-items: center;
 }
 
 .site-footer-divider {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom {
+  display: flex;
 }
 
 .site-footer-links {
