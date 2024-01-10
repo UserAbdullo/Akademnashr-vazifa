@@ -12,6 +12,18 @@ body {
   background: #ffffff;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -22,7 +34,7 @@ body {
   list-style: none;
 }
 
-.site-nav-link a {
+.site-nav-link {
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
@@ -30,6 +42,16 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: black;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.site-nav-link:hover {
+  color: #ff7500;
+}
+
+.site-nav-link:active {
+  opacity: 0.6;;
 }
 
 .main-link {
@@ -38,6 +60,15 @@ body {
   background-color: #ff7500;
   color: #ffffff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -156,6 +187,20 @@ body {
 .site-footer-socials {
   display: flex;
   align-items: center;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.site-footer-socials a {
+  color: #252420
+}
+
+.site-footer-socials a:hover {
+  color: #ff7500;
+}
+
+.site-footer-socials a:active {
+  opacity: 0.6;
 }
 
 .site-footer-divider {
@@ -175,5 +220,14 @@ body {
   text-decoration: none;
   line-height: 19px;
   color: #252420;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
 
+.site-footer-links a:hover {
+  color: #ff7500;
+}
+
+.site-footer-links a:focus {
+  opacity: 0.6;
+}
